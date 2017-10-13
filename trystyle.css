@@ -1,0 +1,392 @@
+
+.line{
+    position: absolute;
+    height: 2.2%;
+    width: 1.2%;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 100px;
+}
+#line_1{
+    top: 30%;
+    margin-left: 20%;
+}
+#line_2{
+    top: 15%;
+     margin-left: 40%;
+}
+#line_3{
+    top: 45%;
+    margin-left: 60%;
+}
+#line_4{
+    top: 35%;
+     margin-left: 80%;
+}
+.car{
+    position: absolute;
+    height: 7.8%;
+    width: 3.5%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 0px black;
+    margin-top: 1%;
+}
+#enter{
+    color:white;margin-top:50%
+}
+
+@media (min-width: 1200px){ 
+    body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: sans-serif;
+}
+#shoot{
+    font-size:230%;margin-left:4%; top:80%;position:absolute; border-radius:5px;
+}
+#container{
+    position: relative;
+    height: 95vh;
+    width: 84.5%;
+    left: 1.3%;
+    margin-top: 1.5%;
+    background-image: url("back.jpg");
+    min-height: 100%;
+    overflow: hidden;
+}
+#target {
+    margin-left:85%; top: 26%;position:absolute;
+    height:150px; width:150px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+
+@media (max-width: 380px){
+   #target {
+    margin-left:85%; top: 26%;position:absolute;
+    height:15vh; width:15vw;
+}
+#shoot{
+    font-size:120%;margin-left:4%; top:80%;position:absolute; border-radius:5px;
+}
+body {
+    
+    background-color: black;
+    font-family: sans-serif;
+  }
+  #container{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    position: absolute;
+    height: 100vw;
+    width: 100vh;
+    background-image: url("back.jpg");
+    overflow: hidden;
+    margin-left:-21.5vh;
+    margin-top: 37vw;
+} 
+}
+
+@media (min-width: 381px) and (max-width: 767px) { 
+#target {
+    margin-left:85%; top: 26%;position:absolute;
+    height:15vh; width:15vw;
+}
+#shoot{
+    font-size:120%;margin-left:4%; top:80%;position:absolute; border-radius:5px;
+}
+body {
+    
+    background-color: black;
+    font-family: sans-serif;
+  }
+  #container{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    position: absolute;
+    height: 100vw;
+    width: 100vh;
+    background-image: url("back.jpg");
+    overflow: hidden;
+    margin-left:-21.5vh;
+    margin-top: 37vw;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px) { 
+#target {
+    margin-left:85%; top: 26%;position:absolute;
+    height:15vh; width:15vw;
+}
+#shoot{
+    font-size:170%;margin-left:4%; top:80%;position:absolute; border-radius:5px;
+}
+body {
+    
+    background-color: black;
+    font-family: sans-serif;
+  }
+  #container{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    position: absolute;
+    height: 100vw;
+    width: 100vh;
+    background-image: url("back.jpg");
+    overflow: hidden;
+    margin-left:-12vh;
+    margin-top: 16vw;
+}
+
+
+}
+#name{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 87%;
+}
+#displayname{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 3%;
+    color:white;
+    font-family: papyrus;
+    font-size:160%;
+}
+#inputname {
+    font-family: papyrus; font-size:70%; margin-right: 2%
+}
+#arrow{
+    display:none;
+    bottom: 61%;
+    left: 10%;
+    position: absolute;
+    height: 7%;
+    width: 10%; 
+}
+#archer{
+    position: absolute; 
+    bottom: 35%;
+}
+#shadow{
+    position: absolute; 
+    bottom: 35%;
+    top:63%
+}
+#shoot:hover{
+    cursor:pointer;
+}
+#about1{
+    color:gold; margin-top: 10%
+}
+#about2{
+    color:white;opacity: 0.5
+}
+#about3{
+    color:white;opacity: 0.5
+}
+#game{
+    position: absolute;
+    margin-left:37.5%;
+    color:hotpink;
+    font-family: papyrus
+}
+.mouth{
+    position: absolute;
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+    top: 45%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: black;
+}
+
+.eye_l{
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    margin-left: 10%;
+    top: 8%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+}
+.eye_r{
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    margin-left: 70%;
+    top: 8%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+}
+.ear_l{
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    background-color: rgba(255,255,255,0.5);;
+    top: 20%;
+    left: -30%;
+    border-radius: 5px 0px 0px 5px;
+}
+.ear_r{
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    background-color: rgba(255,255,255,0.5);;
+    top: 20%;
+    left: 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#car_1{
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1000; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: 1000;
+}
+
+@-webkit-keyframes example {
+    0%   {background-color:red; left:22%; top:1%;}
+    25%  {background-color:yellow; left:22%; top:86%;}
+    50%  {background-color:blue; left:22%; top:1%;}
+    75%  {background-color:purple; left:22%; top:86%;}
+    100% {background-color:red; left:22%; top:1%;}
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:22%; top:1%;}
+    25%  {background-color:yellow; left:22%; top:86%;}
+    50%  {background-color:blue; left:22%; top:1%;}
+    75%  {background-color:purple; left:22%; top:86%;}
+    100% {background-color:red; left:22%; top:1%;}
+}
+
+#car_2{
+ background-color: red;
+    -webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6.6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1000; /* Safari 4.0 - 8.0 */
+    animation-name: ex;
+    animation-duration: 6.6s;
+    animation-iteration-count: 1000;
+}
+
+@-webkit-keyframes ex {
+    0%   {background-color:red; left:38%; top:1%;}
+    25%  {background-color:yellow; left:38%; top:86%;}
+    50%  {background-color:blue; left:38%; top:1%;}
+    75%  {background-color:pink; left:38%; top:86%;}
+    100% {background-color:red; left:38%; top:1%;}
+}
+
+
+@keyframes ex {
+    0%   {background-color:red; left:38%; top:1%;}
+    25%  {background-color:yellow; left:38%; top:86%;}
+    50%  {background-color:blue; left:38%; top:1%;}
+    75%  {background-color:pink; left:38%; top:86%;}
+    100% {background-color:red; left:38%; top:1%;}
+}
+
+#car_3{
+ background-color: red;
+    -webkit-animation-name: gx; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7.6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1000; /* Safari 4.0 - 8.0 */
+    animation-name: gx;
+    animation-duration: 7.6s;
+    animation-iteration-count: 1000;
+}
+
+@-webkit-keyframes gx {
+    0%   {background-color:red; left:54%; top:1%;}
+    25%  {background-color:yellow; left:54%; top:86%;}
+    50%  {background-color:blue; left:54%; top:1%;}
+    75%  {background-color:green; left:54%; top:86%;}
+    100% {background-color:red; left:54%; top:1%;}
+}
+
+
+@keyframes gx {
+    0%   {background-color:red; left:54%; top:1%;}
+    25%  {background-color:yellow; left:54%; top:86%;}
+    50%  {background-color:blue; left:54%; top:1%;}
+    75%  {background-color:green; left:54%; top:86%;}
+    100% {background-color:red; left:54%; top:1%;}
+}
+#car_4{
+    background-color: red;
+    -webkit-animation-name: e; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7.2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1000; /* Safari 4.0 - 8.0 */
+    animation-name: e;
+    animation-duration: 7.2s;
+    animation-iteration-count: 1000;
+}
+
+@-webkit-keyframes e {
+    0%   {background-color:red; left:70%; top:1%;}
+    25%  {background-color:yellow; left:70%; top:86%;}
+    50%  {background-color:blue; left:70%; top:1%;}
+    75%  {background-color:green; left:70%; top:86%;}
+    100% {background-color:red; left:70%; top:1%;}
+}
+
+
+@keyframes e {
+    0%   {background-color:red; left:70%; top:1%;}
+    25%  {background-color:yellow; left:70%; top:86%;}
+    50%  {background-color:blue; left:70%; top:1%;}
+    75%  {background-color:green; left:70%; top:86%;}
+    100% {background-color:red; left:70%; top:1%;}
+}
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #292929;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    display: none;
+}
+
+#restart {
+    border: none;
+    padding: 25px;
+    color: white;
+    background-color: #8a64ff;
+    font-size: 30px;
+    margin-top: 20%;
+}
+#restart_div :hover {
+    cursor:pointer;
+}
+.small_text{
+    font-size: 15px;
+}
+#score_div{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 87%;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #808080;
+}
+#help{
+	text-align: center;
+}

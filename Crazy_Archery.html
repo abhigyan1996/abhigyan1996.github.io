@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRAZY ARCHERY</title>
+    <meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;" />
+    <link href="trystyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body ng-app="">
+   
+   <div class="w3-hide-small w3-hide-medium"> 
+    <div id="score_div">
+        SCORE: <span id="score">0</span>
+    </div>
+  <div id="name">
+    <h4 id="enter"> ENTER NAME:<br><input id="inputname" type="text" ng-model="name"></h4>
+  </div>
+  </div>
+    <div id="container">
+      <button class= "w3-button w3-red w3-hover-pink w3-border-radius" id="shoot"> SHOOT</button>
+       <img src="target.png" id="target">
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+         <div id="line_4" class="line"></div>
+        <div>
+        <p id="displayname" ng-bind="name"></p>
+        <img id="arrow" src="arrow.png">
+        <img id="archer" src="archer.jpg" height="43%" width="15%">  
+        <img id="shadow" src="oval.jpg" height="2.87%" width="13%">   
+        </div>
+        <div id="car_1" class="car">
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+         
+        </div>
+        <div id="car_2" class="car" >
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+           
+        </div>
+        <div id="car_3" class="car">
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+           
+        </div>
+        <div id="car_4" class="car">
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+           
+        </div>
+        <div id="restart_div">
+          <h1 id="game"> CRAZY ARCHERY </h1>
+            <button class="w3-button" id="restart">
+                Score: <span id="score1"></span>
+                <br> <b>NEW GAME</b>
+            </button>
+            <h2 id="about1"> Wide Screen Game Only! </h2>
+            <h4 id="about2"> © All rights reserved <br> Developed by Abhigyan Kashyap </h4>
+            <h5 id="about3"> abhigyankashyap82@gmail.com </h5>
+        </div>
+    </div>
+    <audio id="sound1" src="music.mp3" preload="auto"></audio>
+
+    <script src="jquery.min.js"></script>
+    <script src="try.js"></script>
+</body>
+
+</html>
